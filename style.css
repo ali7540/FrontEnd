@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+ 
+
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    overflow-x: hidden;
+    padding:0 1vw;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    padding:25px 35px;
+
+}
+.nav{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav .right{
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+.nav .right h4{
+    font-weight: 200;
+}
+.nav .right #size{
+    font-size: 30px;
+}
+
+.content1{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 30px;
+}
+.content1 img{
+    object-fit: cover;
+    /* height: 400px;
+    width:300px; */
+}
+.content1 #img1{
+    height: 20vw;
+    width: 30vw;
+}
+.content1 #img2{
+    height: 26vw;
+    width: 30vw;
+}
+.content1 #img3{
+    height: 32vw;
+    width: 30vw;
+}
+
+.content2{
+    justify-content: space-between;
+    display: flex;
+    /* position: relative; */
+}
+.hello{
+    position: relative;
+    margin-top: -5vw;
+}
+.hello p{
+    padding-bottom: 1.5vw;
+    font-size: 1.3vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hello h1{
+    font-size:10vw;
+    line-height:9vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550;
+}
+.hello h1 span{
+    font-style: italic;
+    font-family: serif;
+    font-weight: normal;
+    letter-spacing: -0.9vw;
+    margin-left:-2vw;
+    font-size:12vw ;
+}
+.discuss{
+    position: relative;
+    margin-top: 5.3vw;
+    width: 31vw;
+}
+.discuss p:nth-child(1){
+    font-size:1vw;
+    font-weight: 200;
+    line-height: 1.7vw;
+    margin-bottom: 2.7vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.discuss p:nth-child(2){
+    border: 1px solid white;
+    border-radius: 4vw;
+    display:inline;
+    padding:0.8vw 1.5vw;
+    font-size:1.2vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.discuss p i,i{
+    rotate: 45deg;
+    
+}
+     
+.page2{
+    height: 100vh;
+    width: 100%;
+    padding:25px 35px ;
+}
+
+#olive{
+    font-size: 1.34vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 38vw;
+    line-height:2.2vw;
+}
+.codewave{
+    font-family:"Nunito Sans", sans-serif;
+    width:54vw;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:0.01vw solid grey ;
+    padding-bottom: 1.3vw;
+    margin-top:1.7vw;
+}
+.list:nth-child(1){
+    margin-top: 0;
+}
+.list p{
+    font-weight:100;
+    font-size: 1.7vw;
+}
+.list h2{
+    font-weight: 100;
+    font-size: 1.2vw;
+}
+.discuss2{
+    display: flex;
+    align-items: end;
+    /* position: relative;
+    top: 52vh; */
+}
+.discuss2 p{ 
+    border: 1px solid white;
+    border-radius: 4vw;
+    display:inline;
+    padding:0.8vw 1.5vw;
+    font-size:1vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:0.3s ease-in;
+    
+     
+}
+.discuss2 p:hover{ 
+    border: 1px solid white;
+    border-radius: 4vw;
+    display:inline;
+    padding:0.8vw 1.5vw;
+    font-size:1vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color:black;
+    
+     
+}
+
+.page2 .content2 img{
+    object-fit: cover;
+    height:50vh;
+    width:54vw;
+    margin-top: 3vw;
+}
+
+.page3{
+    height: 70vh;
+    width: 100%;
+    padding:25px 35px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-top:5vw;
+}
+.work{
+    font-size:2.3vw;
+    line-height:4.5vw;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing:-0.2vw;
+}
+.work:nth-child(1){
+    font-weight: 100;
+}
+
+.discuss3{
+    position: relative;
+    width: 31vw;
+}
+.discuss3 p:nth-child(1){
+    font-size:1vw;
+    font-weight: 200;
+    line-height: 1.7vw;
+    margin-bottom: 2.7vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.discuss3 p:nth-child(2){
+    border: 1px solid white;
+    border-radius: 4vw;
+    display:inline;
+    padding:0.8vw 1.5vw;
+    font-size:1.2vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
